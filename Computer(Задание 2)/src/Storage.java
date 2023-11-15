@@ -21,8 +21,8 @@ public class Storage {
         return weight;
     }
     public String toString() {
-        return "Storage = " + type +
-                ", Capacity = " + capacity +
-                ", Weight = " + weight;
+        return  "Type : " + type +
+                ", Capacity : " + capacity +
+                ", Weight : " + weight;
     }
 }
