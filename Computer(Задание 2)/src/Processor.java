@@ -27,9 +27,9 @@ public class Processor {
         return weight;
     }
     public String toString() {
-        return "Processor = " + manufacturer +
-                ", Frequency = " + frequency +
-                ", Cores = " + cores +
-                ", Weight = " + weight;
+        return "Manufacturer : " + manufacturer +
+                ", Frequency : " + frequency +
+                ", Cores : " + cores +
+                ", Weight : " + weight;
     }
 }
