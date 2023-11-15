@@ -9,11 +9,6 @@ public class Main {
         Computer computer = new Computer("Asus", "ZenBook", processor, ram, storage, display, keyboard);
 
         System.out.println(computer.toString());
-        System.out.println(processor.toString());
-        System.out.println(ram.toString());
-        System.out.println(storage.toString());
-        System.out.println(display.toString());
-        System.out.println(keyboard.toString());
         System.out.println("Total weight: " + computer.calculateTotalWeight() + " kg");
     }
 }
