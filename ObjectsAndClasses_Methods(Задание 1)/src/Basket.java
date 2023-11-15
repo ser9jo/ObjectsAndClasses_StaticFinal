@@ -58,7 +58,7 @@ public class Basket {
             count + " шт. - " + price + " руб.";
         totalPrice = totalPrice + count * price;
         totalCount = totalCount + count;
-        averagePriseAll = totalPrice / totalCount;
+        averagePriseAll = (double) totalPrice / totalCount;
     }
 
     public void clear() {
