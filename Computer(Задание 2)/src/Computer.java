@@ -21,6 +21,13 @@ public class Computer {
             return processor.getWeight() + ram.getWeight() + storage.getWeight() + display.getWeight() + keyboard.getWeight();
         }
     public String toString() {
-        return "Computer";
+        return "Computer" + "\n" +
+                "Manufacturer = " + manufacturer + "\n" +
+                "Name = " + name + "\n" +
+                "Processor = " + processor + "\n" +
+                "RAM = " + ram + "\n" +
+                "Storage = " + storage + "\n" +
+                "Display = " + display + "\n" +
+                "Keyboard = " + keyboard;
     }
 }
