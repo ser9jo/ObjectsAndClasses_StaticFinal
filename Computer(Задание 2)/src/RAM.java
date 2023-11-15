@@ -21,8 +21,8 @@ public class RAM {
         return weight;
     }
     public String toString() {
-        return "RAM = " + type +
-                ", Capacity = " + capacity +
-                ", Weight = " + weight;
+        return  "Type : " + type +
+                ", Capacity : " + capacity +
+                ", Weight : " + weight;
     }
 }
