@@ -21,8 +21,8 @@ public class Keyboard {
         return weight;
     }
     public String toString() {
-        return "Keyboard = " + type +
-                ", Backlight = " + backlight +
-                ", Weight = " + weight;
+        return  "Type : " + type +
+                ", Backlight : " + backlight +
+                ", Weight : " + weight;
     }
 }
