@@ -21,8 +21,8 @@ public class Display {
         return weight;
     }
     public String toString() {
-        return "Display = " + type +
-                ", Diagonal = " + diagonal +
-                ", Weight = " + weight;
+        return  "Type : " + type +
+                ", Diagonal : " + diagonal +
+                ", Weight : " + weight;
     }
 }
